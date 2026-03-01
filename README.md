@@ -1,6 +1,7 @@
 （1）首先安装本项目所需的依赖库：pip install -r requirements.txt
 
 （2）环境配置:使用本地的python环境或者使用项目下的venv虚拟环境
+
 代码结构：
 - base 基础类封装
 - common  公共方法封装
