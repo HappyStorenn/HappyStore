@@ -1,0 +1,14 @@
+INFO     common.recordlog:conftest.py:20 -------------接口测试开始--------------
+INFO     common.recordlog:sendrequest.py:160 接口名称：订单支付
+INFO     common.recordlog:sendrequest.py:161 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO     common.recordlog:sendrequest.py:162 请求方式：post
+INFO     common.recordlog:sendrequest.py:163 测试用例名称：订单支付
+INFO     common.recordlog:sendrequest.py:164 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO     common.recordlog:sendrequest.py:165 Cookie：None
+INFO     common.recordlog:sendrequest.py:175 请求参数：{'json': {'orderNumber': '919059230347722493329', 'userId': '6655202862325651810', 'timeStamp': '1772349772'}}
+INFO     common.recordlog:sendrequest.py:133 接口返回信息：{"createTime":"2026-03-01 15:22:52","error":"","error_code":"0000","message":"订单支付成功","translate_language":"zh-CN"}
+
+INFO     common.recordlog:assertions.py:169 yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+INFO     common.recordlog:assertions.py:67 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+INFO     common.recordlog:assertions.py:197 测试成功
+INFO     common.recordlog:conftest.py:22 -------------接口测试结束--------------
